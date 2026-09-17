@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us - Sentriola</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Sentriola</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Contact Us</h2>
+
+            <p>For questions and support, contact us at <a href="mailto:support@sentriola.com">support@sentriola.com</a>.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="e.g., Emre Albayrak" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                    </p>
+
+                    <p>
+                        <label for="contact-date">Preferred Contact Date:</label><br>
+                        <input type="date" id="contact-date" name="contact-date">
+                    </p>
+
+                    <p>
+                        <label for="subject">Select Subject:</label><br>
+                        <select id="subject" name="subject">
+                            <option value="general">General Information</option>
+                            <option value="support">Technical Support</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Sentriola</p>
+        </footer>
+    </body>
+</html>
