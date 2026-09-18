@@ -1,5 +1,5 @@
 # assignment1
-Sentriola - Personal Digital Security Web Application
+Sentriola
 
 Web Site Theme
 
@@ -9,8 +9,6 @@ tools together in one place. The app allows users to check suspicious URLs, scan
 QR codes, analyze SMS messages for possible phishing attempts, check app 
 permissions, and create strong passwords.
 
-The main purpose of the website is to introduce Sentriola, explain its main 
-features, and provide basic information about how the application works.
 
 ## File & Folder Organization
 
@@ -23,9 +21,9 @@ The project is organized into several HTML pages and an assets folder:
   * `contact.html` - Contact page with a contact form
   * `README.md` - Project documentation
   * `assets/` - Folder containing the images used on the website
-    * `sentriola-app.jpg`
-    * `sentriola-features.jpg`
-    * `about-sentriola.jpg`
+    * `sentriola-app.png`
+    * `sentriola-features.png`
+    * `about-sentriola.png`
 
 ## Challenges Encountered & Solutions
 
@@ -36,14 +34,10 @@ The project is organized into several HTML pages and an assets folder:
   for the layout.
 
 * Using Images: I needed to make sure that the image paths were correct 
-  and that the images were stored inside the `assets` folder. I also added 
-  meaningful `alt` text to the images so they are more accessible.
+  and that the images were stored inside the `assets` folder.
 
 * Creating the Contact Form: Another part I worked on was the contact 
   form in `contact.html`. I used different HTML form elements such as text 
   input, email input, date input, a select menu, textarea, and a submit 
-  button. I also used labels and a fieldset to keep the form organized.
+  button.
 
-Overall, this project helped me practice using HTML and understand how different 
-semantic elements, images, links, and forms can be combined to create a simple 
-website.
